@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Tags - Imran Malek's Blog</title>
+  <title>Articles in {General} category - Imran Malek's Blog</title>
   <meta charset='utf-8'/>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
       <link rel='stylesheet' href='/theme/css/main.css'/>
@@ -21,7 +21,7 @@
   <div class='container'>
     <div class='handle'>(Pages)</div>
     <div class='content'>
-        (<span itemprop='name'><a itemprop='url' href='/tags.html' class='active'>Tags</a></span>)
+        (<span itemprop='name'><a itemprop='url' href='/tags.html' >Tags</a></span>)
         (<span itemprop='name'><a itemprop='url' href='/authors.html' >Authors</a></span>)
         (<span itemprop='name'><a itemprop='url' href='/archives.html' >Archives</a></span>)
     </div>
@@ -32,7 +32,7 @@
         {<span itemprop='name'><a itemprop='url' href='/categories.html'>Categories</a></span>}
       </div>
       <div class='content'>
-          <span itemprop='name' class='category'><a itemprop='url' href='/category/general.html' >General</a></span>
+          <span itemprop='name' class='category'><a itemprop='url' href='/category/general.html' class='active'>General</a></span>
       </div>
     </div>
 
@@ -42,8 +42,14 @@
 
 
 <div itemscope itemtype='https://schema.org/BreadcrumbList'>
-      <span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
-    <a itemprop='item' href='/tags.html'><span itemprop='name'>Tags</span></a>
+          <span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+    <a itemprop='item' href='/category/general.html'><span itemprop='name'>General</span></a>
+    <meta itemprop='position' content='3'/>
+  </span>
+  &lt;
+
+          <span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+    <a itemprop='item' href='/categories.html'><span itemprop='name'>Categories</span></a>
     <meta itemprop='position' content='2'/>
   </span>
   &lt;
@@ -75,10 +81,45 @@
   </div>
 
   <main>
-      <h2 itemprop='headline' id='content-title'>Tags</h2>
+      <h2 itemprop='headline' id='content-title'>Articles in <span class='category'>General</span> category</h2>
 
       <div itemprop='mainEntity' itemscope itemtype='https://schema.org/Blog'>
-        
+              <article itemprop='blogPost' itemscope itemtype='https://schema.org/BlogPosting' class='summary'>
+    <meta itemprop='headline' content='First Post'/>
+    <link itemprop='publisher' itemscope itemtype='https://schema.org/Organization' itemref='publisher' href=''/>
+    <link itemprop='mainEntityOfPage' href='/first-post.html'/>
+    <meta itemprop='inLanguage' content='english'/>
+      <meta itemprop='wordCount' content='4'/>
+
+
+    <header>
+      <h2 itemprop='name'><a href='/first-post.html'>First Post</a></h2>
+      <p>
+        <time itemprop='datePublished' datetime='2019-03-22 00:00:00-04:00' title='2019-03-22 00:00:00-04:00'>Fri 22 March 2019</time>
+      </p>
+      <p class='author-cat-tag'>
+            <span itemprop='author' itemscope itemtype='https://schema.org/Person' class='author'>
+    <span itemprop='name' class='name'><a itemprop='url' rel='author' href='/author/imran-malek.html'>Imran Malek</a></span>
+  </span>
+
+
+          <span itemprop="articleSection" class='category'><a href='/category/general.html'>General</a></span>
+
+
+      </p>
+    </header>
+
+      <div class='summary'>
+        <p itemprop='description'>
+          Working on this thing.
+        </p>
+        <span class='readmore'>
+          <a href='/first-post.html'>&gt;&gt;&gt;</a>
+        </span>
+      </div>
+  </article>
+
+
       </div>
   </main>
 
