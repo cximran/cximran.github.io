@@ -2,7 +2,7 @@ body {
   color: #696969;
   background-color: #FFFFFF;
   word-wrap: break-word;
-  font-family: 'Saira Semi Condensed', serif;
+  font-family: 'Roboto', serif;
   line-height: 2;
   font-size: 1.8em;
 }
@@ -316,7 +316,7 @@ article.post:first-child .post-inner-content {
   text-align: center;
 }
 .entry-title {
-  font-family: "Saira Semi Condensed", serif;
+  font-family: "Roboto", serif;
   font-style: italic;
   margin-top: 0;
   margin-bottom: 15px;
@@ -356,7 +356,7 @@ article.post:first-child .post-inner-content {
   font-weight: 700;
 }
 .comment-author .fn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   font-style: normal;
 }
@@ -376,7 +376,7 @@ article.post:first-child .post-inner-content {
 }
 .cat-title a {
   color: #8e6193;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Black", sans-serif;
   text-transform: uppercase;
 }
 article.post .post-categories, .post-inner-content .cat-item {
@@ -399,7 +399,7 @@ article.post .post-categories:after,
 }
 article.post .post-categories a, .post-inner-content .cat-item a{
   color: #696969;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -498,7 +498,7 @@ article.grid iframe {
 }
 .tagline {
   color: #1c202a;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 10px;
   letter-spacing: 1px;
 }
