@@ -2,7 +2,7 @@ body {
   color: #696969;
   background-color: #FFFFFF;
   word-wrap: break-word;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Saira Semi Condensed', serif;
   line-height: 2;
   font-size: 1.8em;
 }
@@ -316,7 +316,7 @@ article.post:first-child .post-inner-content {
   text-align: center;
 }
 .entry-title {
-  font-family: "Crimson Text", serif;
+  font-family: "Saira Semi Condensed", serif;
   font-style: italic;
   margin-top: 0;
   margin-bottom: 15px;

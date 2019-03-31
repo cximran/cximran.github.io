@@ -1,48 +1,216 @@
-/* latin */
+/* vietnamese */
 @font-face {
-  font-family: 'Crimson Text';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Crimson Text Italic'), local('CrimsonText-Italic'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlpogwHKFkZgtmSR3NB0oRJfajhRK_Y.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Saira SemiCondensed Thin'), local('SairaSemiCondensed-Thin'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MN6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXdvWOs2rET-.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Saira SemiCondensed Thin'), local('SairaSemiCondensed-Thin'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MN6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXdvWOo2rET-.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Crimson Text';
-  font-style: italic;
-  font-weight: 600;
-  src: local('Crimson Text SemiBold Italic'), local('CrimsonText-SemiBoldItalic'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlprgwHKFkZgtmSR3NB0oRJfajCOD-NS_LU.woff2) format('woff2');
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Saira SemiCondensed Thin'), local('SairaSemiCondensed-Thin'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MN6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXdvWOQ2rA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Saira SemiCondensed ExtraLight'), local('SairaSemiCondensed-ExtraLight'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfDSfMeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Saira SemiCondensed ExtraLight'), local('SairaSemiCondensed-ExtraLight'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfDSfMfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Crimson Text';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Crimson Text Bold Italic'), local('CrimsonText-BoldItalic'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlprgwHKFkZgtmSR3NB0oRJfajDqDuNS_LU.woff2) format('woff2');
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Saira SemiCondensed ExtraLight'), local('SairaSemiCondensed-ExtraLight'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfDSfMRiXk.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Saira SemiCondensed Light'), local('SairaSemiCondensed-Light'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXenSvMeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Saira SemiCondensed Light'), local('SairaSemiCondensed-Light'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXenSvMfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Saira SemiCondensed Light'), local('SairaSemiCondensed-Light'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXenSvMRiXk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Saira SemiCondensed Regular'), local('SairaSemiCondensed-Regular'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MD6c-2-nnJkHxyCjRcnMHcWVWV1cWRRX8DaOYuqA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Saira SemiCondensed Regular'), local('SairaSemiCondensed-Regular'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MD6c-2-nnJkHxyCjRcnMHcWVWV1cWRRX8CaOYuqA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Saira SemiCondensed Regular'), local('SairaSemiCondensed-Regular'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MD6c-2-nnJkHxyCjRcnMHcWVWV1cWRRX8MaOY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Saira SemiCondensed Medium'), local('SairaSemiCondensed-Medium'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXf_S_MeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Saira SemiCondensed Medium'), local('SairaSemiCondensed-Medium'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXf_S_MfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Saira SemiCondensed Medium'), local('SairaSemiCondensed-Medium'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXf_S_MRiXk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
   font-style: normal;
   font-weight: 600;
-  src: local('Crimson Text SemiBold'), local('CrimsonText-SemiBold'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlppgwHKFkZgtmSR3NB0oRJXsCxGDNNQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Saira SemiCondensed SemiBold'), local('SairaSemiCondensed-SemiBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfTTPMeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Saira SemiCondensed SemiBold'), local('SairaSemiCondensed-SemiBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfTTPMfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: 'Crimson Text';
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Saira SemiCondensed SemiBold'), local('SairaSemiCondensed-SemiBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXfTTPMRiXk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
   font-style: normal;
   font-weight: 700;
-  src: local('Crimson Text Bold'), local('CrimsonText-Bold'), url(https://fonts.gstatic.com/s/crimsontext/v9/wlppgwHKFkZgtmSR3NB0oRJX1C1GDNNQ.woff2) format('woff2');
+  src: local('Saira SemiCondensed Bold'), local('SairaSemiCondensed-Bold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXe3TfMeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Saira SemiCondensed Bold'), local('SairaSemiCondensed-Bold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXe3TfMfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Saira SemiCondensed Bold'), local('SairaSemiCondensed-Bold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXe3TfMRiXk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Saira SemiCondensed ExtraBold'), local('SairaSemiCondensed-ExtraBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXerTvMeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Saira SemiCondensed ExtraBold'), local('SairaSemiCondensed-ExtraBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXerTvMfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Saira SemiCondensed ExtraBold'), local('SairaSemiCondensed-ExtraBold'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXerTvMRiXk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Saira SemiCondensed Black'), local('SairaSemiCondensed-Black'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXePT_MeiXnH6A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Saira SemiCondensed Black'), local('SairaSemiCondensed-Black'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXePT_MfiXnH6A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Saira SemiCondensed Black'), local('SairaSemiCondensed-Black'), url(https://fonts.gstatic.com/s/sairasemicondensed/v4/U9MM6c-2-nnJkHxyCjRcnMHcWVWV1cWRRXePT_MRiXk.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
