@@ -27,67 +27,6 @@
     <main>            <article>
                 <header>
                     <h1>
-                        <a href="/articles/long-form-websites-and-typography/" rel="bookmark"  title="Permanent link to &quot;Long-form websites and typography&quot;">Long-form websites and typography</a>                    </h1>
-
-                    <p><span class="newthought">Written April 09, 2019</span></p>
-                        <p><span class="newthought">Filed under &ldquo;<a href="/categories/general/" rel="tag">General</a>&rdquo;</span></p>
-                </header>
-
-                <section>
-<h2>Or, how to build an anti-Medium.com</h2>
-<p>Two curiously-related pieces of content were shared on Hacker News today. The first was a short article by <a href="https://jrl.ninja/etc/1">Joshua Li</a>, explaining how a few basic CSS styles can make for a great-looking website&mdash;across varying devices. The second was a longer post by Marco Fioretti on how <a href="http://stop.zona-m.net/2018/01/indeed-it-seems-that-google-is-forgetting-the-old-web/">Google is &ldquo;forgetting&rdquo; the old web</a>.</p>
-<p>The latter post kicked up the usual fierce debates <label for="mn-seo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-seo" class="margin-toggle"><span class="marginnote">&hellip;and people arguing about whether a search engine should actually return results matching what you type in.</span> around whether the internet is still an open place if <em>one</em> gatekeeper determines whether you can find and read certain content.</p>
-<p>The former article was berated for having too much CSS <label for="mn-ornot" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-ornot" class="margin-toggle"><span class="marginnote">&hellip;or not enough CSS. Or not including styles for printers.</span> or for using the CSS &ldquo;rem&rdquo; unit, instead of ems or pixels or vws.</p>
-<p>But what really drew my eye was a comment from <a href="https://news.ycombinator.com/item?id=19610271">Marcus Holmes</a>:
-<blockquote><p>Is it just me, then, that hates the &ldquo;narrow strip of text down the middle of my large monitor&rdquo; school of web design?</p>
-<p>I don&rsquo;t understand why I&rsquo;m being forced to scroll when there&rsquo;s all this blank space to the sides.<footer>Marcus Holmes, comment on news.ycombinator.com</footer></blockquote></p>
-<p>Great question, Marcus. <label for="mn-actually" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-actually" class="margin-toggle"><span class="marginnote"><em>Actually</em>, it&rsquo;s so I can use these sick side notes and margin notes! Thank you, Tufte CSS.</span> Why <em>doesn&rsquo;t</em> this website fill 100% of your 1080p or 4K monitor&rsquo;s screen with text? There&rsquo;s a very specific reason, and that is <a href="https://en.wikipedia.org/wiki/Line_length"><em>text measure</em></a>.</p>
-<blockquote><p>A block of text or paragraph has a maximum line length that fits a determined design. If the lines are too short then the text becomes disjointed; if they are too long the content loses rhythm as the reader searches for the start of each line.<footer>Wikipedia entry on &ldquo;Measure (typography)&rdquo;, 2019</footer></blockquote>
-
-<p>The <label for="mn-characters" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-characters" class="margin-toggle"><span class="marginnote">In both typography- and computer-speak, a <em>character</em> is an individual letter or typographic mark.</span> optimal width of a paragraph of text is anywhere from 50&ndash;80 characters per line, depending on which of the many studies you cite. If a paragraph is <em>too</em> wide, your eye loses its place when <a href="https://en.wikipedia.org/wiki/Eye_movement_in_reading#Saccades">tracking back</a> to the beginning of the next line. This decreases reading comprehension&mdash;and increases my irritation when I realize I&rsquo;m re-reading the same line. 🤦</p>
-<h3>So what&rsquo;s the point?</h3>
-<p>For <label for="mn-firefox" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-firefox" class="margin-toggle"><span class="marginnote">Firefox offers a &ldquo;Reader&rdquo; mode that will automatically constrain the page to the same ~68 character maximum width. Again, this is not a coincidence!</span> this website, I chose a text measure that is approximately 70 characters wide, with average line widths of 65-68 characters. After your eye adjusts to the &ldquo;constrained&rdquo; width for reading long articles, Wikipedia begins to tire you out.</p>
-<p>It took several iterations to strike <a href="https://github.com/Eiriksmal/lawler-dot-io/commit/68f052e9bf8bbe9c835d3b6683d036971a1d6d82">the right balance</a> in this design between too-wide and too-narrow. <label for="mn-duh" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-duh" class="margin-toggle"><span class="marginnote">Given how many web typography dissertations I read in the course of refining this design, I shouldn&rsquo;t have been surprised the professionals use consistent text measures&mdash;across publishers.</span> My final measurement was to drag a bunch of books off the shelf, type out a line from each of them, and arrive at my own ideal width based on what the professionals chose. To my surprise, regardless of the book&rsquo;s physical page sizes and typeface size, all of them were <em>exactly</em> 66 characters wide.</p>
-</section>
-<section>
-<h2>What&rsquo;s this have to do with the other article?</h2>
-<p>The Fioretti article references a serious problem with the most-used search engine on the planet: It literally will not answer search results for sites that are &ldquo;too old.&rdquo; This could be a post written in 2007, or 2012. No one knows exactly how the Google algorithms rank and prune pages.</p>
-<p>Lawler.io was inspired by <a href="https://www.gwern.net/About">Gwern</a>, a self-proclaimed &ldquo;freelance writer &amp; researcher who lives in Virginia.&rdquo; He wrote something concerning his own website that runs deeply counter to the current online culture: Gwern.net is home to &ldquo;stable long-term essays which improve over time.&rdquo;</p>
-<h3>Stable, long-term</h3>
-<p>A key ingredient to Gwern&rsquo;s website is his decision to use incredibly robust computer-y bits behind the scenes, to ensure his website isn&rsquo;t going anywhere for a long, long time.</p>
-<p>While I am not going to the same extremes as Gwern to keep lawler.io online for decades, it <em>is</em> very appealing to create a simple, easy-to-maintain website that can persist for years to come.</p>
-<p>Much has been written about <a href="https://en.wikipedia.org/wiki/Link_rot">link rot</a>, the phenomena that most of what goes on the internet disappear after a few weeks or months. Frankly, a lot of the content deserves to rot and disappear. The world has no need for another listicle of 13 Must-Know Viral Memes<label for="sn-believe" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-believe" class="margin-toggle"><span class="sidenote">You won&rsquo;t believe #7!</span>.</p>
-<p>The first challenge is putting content on that website that <em>deserves</em> to persist. The second, easier<label for="sn-easier" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-easier" class="margin-toggle"><span class="sidenote">Easier for this hacker-generalist CTO, at least.</span> challenge, is keeping it online and living at the same web address.</p>
-<h3>Kaizen: Continuous improvement over time</h3>
-<p>Journalists are paid to write articles. Buzzfeed-esque <label for="sn-buzz" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-buzz" class="margin-toggle"><span class="sidenote">I&rsquo;m going to use &ldquo;Buzzfeed&rdquo; as the Kleenex of &ldquo;short web articles with outlandish titles and a splashy lead image to get people to click to open the article and share with all their friends but otherwise leave no impact on the &lsquo;reader&rsquo; whatsoever.&rdquo; I understand Buzzfeed News has &ldquo;real&rdquo; journalists now and does &ldquo;serious&rdquo; work. This does not change the impact they had on online content.</span> listicles come from &ldquo;content farms&rdquo; that pay writers to&hellip; write. Your writing must hit certain key metrics or your paychecks will dry up. The most important metric? How many people open up your article, of course!</p>
-<p>This incentivizes the creation of short articles that draw lots of clicks<label for="sn-engage" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-engage" class="margin-toggle"><span class="sidenote">&ldquo;Engagement&rdquo; in social media marketing terms.</span>, but don&rsquo;t leave much of an impact on the reader.</p>
-<p>For this kind of content, it almost makes sense that Google would stop surfacing Buzzfeed articles from 2012. It wasn&rsquo;t worth reading then and it <em>certainly</em> isn&rsquo;t worth reading now.</p>
-<h3>Medium.com</h3>
-<p>Medium.com exploded in popularity because it, too, used to respect the typography rules we discussed above. <label for="mn-now" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-now" class="margin-toggle"><span class="marginnote">Today, it&rsquo;s a bit too wide for my personal taste: ~77 characters</span> It used simple black-ish text on a white-ish background. A straight-forward design that got out of your way and <em>let you read.</em> And read we did.</p>
-<p>But Medium needed to make money. As more authors poured onto the site, as more companies chose to host their blogs on white-labeled Medium.com domains, Medium&rsquo;s design evolved. Nowadays, it&rsquo;s cluttered with crap. Here&rsquo;s a screenshot of a &ldquo;Recommended&rdquo; article from tonight:</p>
-<figure class="fullwidth"><img src="/images/2019/medium.com.png" alt="Medium.com is a mess"><caption>Screenshot of an article linked to from Medium.com's homepage. (The thin typeface got squished when the image was resized)</caption></figure>
-
-<p>It&rsquo;s cluttered with a huge call to action to join the website, a bunch of nav on the top, and a social widget that follows you down the page during the entire read. Of course, when you hit the bottom, the clutter maximizes with <em>more</em> call-to-actions, obligatory comment boxes<label for="sn-engagement" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-engagement" class="margin-toggle"><span class="sidenote">Never forget your engagement KPIs.</span> and other content you might want to read.</p>
-<p>I digress. The real thing that Medium.com has changed is expectations on what &ldquo;long&rdquo; content is. The pictured article has an impressive 5-minute reading estimate<label for="sn-squint" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-squint" class="margin-toggle"><span class="sidenote">Squint and you can see it under the author&rsquo;s name and link to follow her writing on Medium.</span>. Most of the content I see on Medium are 2-3 minute reads. Any more than that and you <em>seriously</em> risk losing readers. </p>
-<p>In fact, that&rsquo;s the second point in the quote I led off with. &ldquo;I don&rsquo;t understand why I&rsquo;m being forced to scroll.&rdquo; Though we can be assured Mr. Holmes is willing to scroll on a computer to read long articles, most of the people on the internet can&rsquo;t be bothered. Buzzfeed knows this. Medium.com knows this, too.</p>
-<p>But is there another form of consumer? Is there a form of content on the internet that takes longer than 5 minute sto read? Is anyone writing longer articles that repulse the casual surfer, mindlessly flicking through links on their iPhone X? Apparently, such a fiend does exist! Quietly typing away, hundreds of individuals are crafting articles designed to be truly thought-provoking, to stand the test of time and Deserve To Be Read decades later.</p>
-<p>Gwern&rsquo;s <label for="mn-metoo" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-metoo" class="margin-toggle"><span class="marginnote">I, too, quietly tidy up these <del>humble</del> scrivings, tightening them over time. Full edit histories, with explanatory commit messages, are <a href="https://github.com/Eiriksmal/lawler-dot-io/tree/main/content">in GitHub</a> for interested parties.</span> taken this approach to the next level&mdash;he continuously updates his posts as he learns new information on the topic. His experiments will have periodic updates for years. Years!</p>
-<h3>Aspirations</h3>
-<p>My aspiration is to create some substantive content that Deserves To Be Read. While this piece is certainly not one of them, it&rsquo;s a start. A way of painfully filing off the rust from my long-neglected long-form writing skills. A way of unblocking writers block and getting the juices flowing.</p>
-</section>
-<section>
-<h2>The answer</h2>
-<p>What do these two articles have to do with one another? Simple: My website was designed to fit into both categories. An aesthetically-pleasing, easy-to-read website with no tracking codes. A home for long-form content that repulses article skimmers. A place for writing that Google will certainly ignore in 5 years.</p>
-</section>
-
-
-                <footer class="de-emphasize">
-                    <p>Finalized at 3:47 PM.
-Tidied up on April 09, 2019 @ 3:47 PM.                    <p>Tagged with
-                    <a href="/tags/meta/" class="tags">meta</a> and                     <a href="/tags/long-form/" class="tags">long-form</a>.                </footer>
-            </article><hr class="separator">            <article>
-                <header>
-                    <h1>
                         <a href="/articles/content-test-post/" rel="bookmark"  title="Permanent link to &quot;Content Test Post&quot;">Content Test Post</a>                    </h1>
 
                     <p><span class="newthought">Written March 31, 2019</span></p>
@@ -128,7 +67,7 @@ Tidied up on April 09, 2019 @ 3:47 PM.                    <p>Tagged with
                     <p>Finalized at 9:30 AM.
                     <p>Tagged with
                     <a href="/tags/general/" class="tags">General</a>.                </footer>
-            </article><hr class="separator extra">            <article>
+            </article><hr class="separator">            <article>
                 <header>
                     <h1>
                         <a href="/articles/first-post/" rel="bookmark"  title="Permanent link to &quot;First Post&quot;">First Post</a>                    </h1>
